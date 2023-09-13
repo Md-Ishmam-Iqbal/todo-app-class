@@ -71,7 +71,7 @@ class TasksList extends React.Component {
   filterTasks = (tasks) => {
     const { status, priority } = this.props.filter;
 
-    if (status === ALL && !priority) {
+    if (!priority && status === ALL) {
       return this.sortTasks(tasks);
     }
 

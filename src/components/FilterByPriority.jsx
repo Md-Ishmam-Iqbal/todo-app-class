@@ -1,8 +1,8 @@
 import React from "react";
-import { Button, Group } from "@mantine/core";
+import { Button } from "@mantine/core";
 import { IconX } from "@tabler/icons-react";
 import { HIGH, LOW, MEDIUM } from "../constants/priority";
-import { BUTTON, PRIORITYBUTTON } from "../constants/colors";
+import { PRIORITYBUTTON } from "../constants/colors";
 
 class FilterByPriority extends React.Component {
   handleClearFilterByPriority = () => {

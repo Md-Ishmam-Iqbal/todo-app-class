@@ -24,6 +24,7 @@ class ActiveTask extends React.Component {
         py="xs"
         mx="xl"
         withBorder
+        size="xl"
       >
         <Group position="apart">
           <Text weight={500} size={"15px"} maw={"70%"}>
